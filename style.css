@@ -1,4 +1,3 @@
-/*
-.deleteIcon {
-    width: 20px;
-}*/
+#list {
+    list-style: none;
+}

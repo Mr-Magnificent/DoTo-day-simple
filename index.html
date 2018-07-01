@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>DoTo(day)</title>
+    <link content="css/text" rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>DoTo(day)</h1>
 <p>A simplistic ToDo webapp</p>
 <div>
-    <input type="text" id="input" placeholder="Write this Down!">
+    <input type="text" id="inp" placeholder="Write this Down!">
     <button type="button" id="btn">Add Value</button>
+    <button type="button" onclick="delSelectedList()"><img src="baseline-delete_sweep-24px.svg" style="height: 16px">DeleteSelected</button>
 </div>
 <div>
     <ul id="list"></ul>
